@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Anna Clementson Developer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/9298431cf6.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section id="navigationBar">
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="" href="#">Logo here</a>
+        <span class="navbar-text">
+           <a class="navbarAboutMe" href="#introduction">About Me</a>
+           <a class="navbarSayHello" href="#">Say Hello</a>
+        </span>
+      </div>
+    </nav>
+  </section>
+    <section id="welcome">
+      <div class="container">
+          <div class="text-center padding-top-100"><h1 class="title">Hi my name is Anna</h1></div>
+          <div class="subtitle text-center"><h4>Come in and take a look around...</h4></div>
+        </div>
+    </section>
+    <div id="">
+    <section id="introduction">
+      <div class="container">
+        <div class="next">
+          <div><h2 class="title text-center padding-top-20">Let me introduce myself</h2></div>
+          <div class="aboutMe text-center margin-top-50"> I am a self-taught developer who is technically competent, easy-going by nature and eager to learn.
+            <br> I am looking for a position that allows me to enhance my skill set and contribute to the development of an ambitious team.
+            </div>
+          <h2 class="title text-center margin-top-200">Previous Teams</h2>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container">
+        <div class="card-deck card-deck-margin">
+          <div class="card text-center padding-top-50">
+            <i class="fas fa-code fa-3x purple"></i>
+            <div class="card-body margin-top-50">
+              <h5 class="card-title">SMAS Worksafe</h5>
+              <h6 class="purple">Trainee Developer / IT System Support</h6>
+              <p class="card-text">
+                <ul style="list-style-type: none;">
+                  <li>C#</li>
+                  <li>SQL Server</li>
+                  <li>MVC</li>
+                  <li>ASP.NET</li>
+                  <li>SQL Reporting</li>
+                  <li>VB.NET</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center padding-top-50">
+            <i class="fas fa-bug fa-3x purple"></i>
+            <div class="card-body padding-top-50">
+              <h5 class="card-title">Microtest</h5>
+              <h6 class="purple">Trainee Software Tester</h6>
+              <p class="card-text">
+                <ul style="list-style-type: none;">
+                  <li>Writing manual test scripts</li>
+                  <li>Smoke, Functional & Regression Testing</li>
+                  <li>Developing SQL queries</li>
+                  <li>JIRA</li>
+                  <li>Daily Scrum</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center padding-top-50">
+            <i class="fas fa-edit fa-3x purple"></i>
+            <div class="card-body padding-top-50">
+              <h5 class="card-title">Responsible Life</h5>
+              <h6 class="purple">Junior Digital Designer</h6>
+              <p class="card-text">
+                <ul style="list-style-type: none;">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                  <li>Wordpress</li>
+                  <li>InDesign & PhotoShop</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+     <!-- <section id="recentWork">
+      <div class="container">
+        <h2 class="title text-center">My Recent Work</h2>
+        <div class="recentWorkText text-center margin-top-50">Here are a few of the projects I have been working on</div>
+        <div class="card-deck padding-top-50">
+          <div class="card">
+            <img class="card-img-top" src="./images/match.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./images/pixel.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck padding-top-50">
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  -->
+
+    <!-- Optional JavaScript
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
