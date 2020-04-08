@@ -15,9 +15,14 @@
     margin-top: 50px;
 }
 
+.margin-top-100 {
+    margin-top: 100px;
+}
+
 .margin-top-200 {
     margin-top: 200px;
 }
+
 .purple {
     color: #7510F7;
 }
@@ -89,7 +94,7 @@
     margin: auto;
 } */
 #experience {
-    max-height: 500px;
+    max-height: 1600px;
 }
 
 .card-deck-margin {
@@ -105,3 +110,6 @@
     font-weight: 600;
 }
 
+#recentWork {
+    height: 1000px;
+}
