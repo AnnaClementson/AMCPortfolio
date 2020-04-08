@@ -42,7 +42,7 @@
     color: #7510F7;
 }
 
-.navbarSayHello {
+.purpleButton {
     background-color: transparent;
     color: #7510F7;
     border-radius: 290486px;
@@ -51,7 +51,7 @@
     padding: 6px 12px;
 }
 
-.navbarSayHello:hover {
+.purpleButton:hover {
     text-decoration: none;
     border-radius: 290486px;
     color: white;
@@ -106,6 +106,7 @@
     width: 350px;
 }
 
+
 .card-title {
     font-weight: 600;
 }
@@ -117,36 +118,40 @@
  /* Container needed to position the overlay. Adjust the width as needed */
  .cardContainer {
     position: relative;
-    width: 50%;
   }
   
   /* Make the image to responsive */
   .image {
     width: 100%;
     height: auto;
+     border-radius: 15px;
   }
   
   /* The overlay effect (full height and width) - lays on top of the container and over the image */
-  .cardOverlay {
+  .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background-color: #141c3a;
     overflow: hidden;
     width: 100%;
     height: 100%;
     transform: scale(0);
     transition: .3s ease;
+    border-radius: 15px;
+
   }
   
   /* When you mouse over the container, the overlay text will "zoom" in display */
-  .CardContainer:hover .CardOverlay {
+  .container:hover .overlay {
     transform: scale(1);
   }
   
   /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
   .overlayText {
+    max-width: 300px;
+    width: 300px;
     color: white;
     font-size: 20px;
     position: absolute;
@@ -155,3 +160,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
   } 
+
+#universitySection { 
+    height: 500px;
+}
