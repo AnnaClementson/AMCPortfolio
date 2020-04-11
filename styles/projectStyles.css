@@ -59,10 +59,7 @@ body {
     padding: 0;
 }
 
-body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
 
-}
 
 .gameContainer {
     display: flex;
@@ -151,7 +148,7 @@ body {
 }
 
  /* The Modal (background) */
-.modal {
+ .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -188,3 +185,90 @@ body {
     text-decoration: none;
     cursor: pointer;
 } 
+
+/*Calculator Styles*/
+
+.calculatorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+.calculatorGrid {
+    display: grid;
+    height: 620px;
+    width: 500px;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(6, 100px);
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    margin-top: 20px;
+} 
+
+ .calculatorGrid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 3px solid black;
+    outline: none;
+    background-color: #00007d;
+    border-radius: 10px;
+
+}
+
+.calculatorGrid > button:hover {
+    background-color: #000F9F;
+}
+
+.spanTwo {
+    grid-column: span 2;
+} 
+
+ .output {
+    grid-column: 1 / -1;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding-right: 130px;  
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+} 
+
+ .button {
+    color: white;
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.output .history {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.history {
+    grid-row: span 5;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
