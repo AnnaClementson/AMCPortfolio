@@ -27,6 +27,8 @@
     color: #7510F7;
 }
 
+/*Navigation bar styles*/
+
 .navbar {
     background-color: white;
     font-size: 20px;
@@ -58,6 +60,12 @@
     background-color: #7510F7;
 }
 
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+
+
 #welcome {
     background-color: white;
     max-width: 100%;
@@ -75,7 +83,7 @@
 #introduction {
     background-color: #7510F7;
     width: 100%;
-    height: 600px;
+    height: 700px;
     color: white;
 }
 
@@ -94,7 +102,7 @@
     margin: auto;
 } */
 #experience {
-    max-height: 1600px;
+    height: 600px;
 }
 
 .card-deck-margin {
@@ -162,5 +170,9 @@
   } 
 
 #universitySection { 
+    height: 500px;
+}
+
+#myWork {
     height: 500px;
 }
