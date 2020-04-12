@@ -11,6 +11,10 @@
     padding-top: 20px;
 }
 
+.margin-top-20 {
+    margin-top: 20px;
+}
+
 .margin-top-50 {
     margin-top: 50px;
 }
@@ -21,6 +25,14 @@
 
 .margin-top-200 {
     margin-top: 200px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
 }
 
 .purple {
@@ -49,7 +61,7 @@
     color: #7510F7;
     border-radius: 290486px;
     border: 2px solid #7510F7;
-    margin-left: 30px;
+    margin-left: 10px;
     padding: 6px 12px;
 }
 
@@ -63,8 +75,6 @@
 .margin-right-20 {
     margin-right: 20px;
 }
-
-
 
 #welcome {
     background-color: white;
@@ -87,20 +97,10 @@
     color: white;
 }
 
-/* #parent {
-    position: relative;
-    height: 1000px;
-} */
-
 .aboutMe {
     font-size: 18px;
 }
 
-/* .workOverlay {
-    position: absolute;
-    top: 500px;
-    margin: auto;
-} */
 #experience {
     height: 600px;
 }
@@ -112,67 +112,18 @@
 .card {
     border-radius: 15px;
     width: 350px;
+    height: 650px;
 }
-
 
 .card-title {
     font-weight: 600;
 }
 
-#recentWork {
-    height: 1000px;
-}
-
- /* Container needed to position the overlay. Adjust the width as needed */
- .cardContainer {
-    position: relative;
-  }
-  
-  /* Make the image to responsive */
-  .image {
-    width: 100%;
-    height: auto;
-     border-radius: 15px;
-  }
-  
-  /* The overlay effect (full height and width) - lays on top of the container and over the image */
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #141c3a;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    transform: scale(0);
-    transition: .3s ease;
-    border-radius: 15px;
-
-  }
-  
-  /* When you mouse over the container, the overlay text will "zoom" in display */
-  .container:hover .overlay {
-    transform: scale(1);
-  }
-  
-  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-  .overlayText {
-    max-width: 300px;
-    width: 300px;
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  } 
-
-#universitySection { 
+#education { 
     height: 500px;
 }
 
-#myWork {
-    height: 500px;
-}
+
+@media (min-width: 768px) { 
+
+ }
