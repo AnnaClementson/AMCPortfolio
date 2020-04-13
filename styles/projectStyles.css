@@ -1,3 +1,19 @@
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
 
 
 .navbar {
@@ -272,3 +288,31 @@ body {
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
 }
 
+/*Foot Section*/
+
+#footer {
+    height: 400px;
+    background-color: #7510F7;
+    color: white;
+}
+
+.icon {
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid  	#F5F5F5 ;
+    margin-left: 10px;
+    padding: 8px 12px;
+}
+
+.icon:hover {
+    text-decoration: none;
+    border-radius: 100%;
+    color: #7510F7;
+    background-color: white;
+}
+
+.madeBy {
+    text-decoration: none;
+    color: white;
+}

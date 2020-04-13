@@ -52,6 +52,10 @@
     color: #7510F7;
 }
 
+.border-radius-15 {
+    border-radius: 15px;
+}
+
 /*Navigation bar styles*/
 
 .navbar {
